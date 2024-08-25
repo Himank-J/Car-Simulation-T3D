@@ -1,5 +1,7 @@
 # Car Simulation using T3D (Twin Delayed Deep Detereministic Policy Gradient)
 
+Twin Delayed Deep Deterministic Policy Gradient (TD3) is a model-based AI algorithm that’s used for decision-making in complex, uncertain environments. TD3 utilizes two critics to minimize overestimation bias and ensure accuracy in predicting potential actions. By having two Critic networks (which is referred to as “Twin” in TD3) and introducing a delay in updating the policy network and target networks (the “Delayed” part), TD3 substantially improves both the stability and performance of the learning process.
+
 ## Objective
 Implementation of Car Simulation using T3D algorithm
 
